@@ -1,4 +1,6 @@
 import Header from './Header';
+import OurProducts from './OurProducts';
+
 import '../style/Home.css';
 
 import scandinavianBg from '../images/home/background1.svg'; 
@@ -33,8 +35,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
-
+<OurProducts />
 export default Home;
