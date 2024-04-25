@@ -1,0 +1,53 @@
+/* header.css */
+
+.header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 2.125rem;
+  height: 1rem;
+}
+
+.menu {
+  flex: 1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: blueviolet;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin-right: 30px;
+  justify-content: space-around;
+}
+
+.menu-icon {
+  width: 24px;
+  vertical-align: middle;
+  padding: 4rem;
+}
+
+.user-actions img {
+  width: 24px;
+  margin-left: 10px;
+  padding: 0 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-logo{
+  font-family: 'Montserrat', sans-serif;
+  height: 500;
+}

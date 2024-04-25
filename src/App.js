@@ -1,10 +1,15 @@
-import './App.css';
+import React from 'react';
+import '../src/style/App.css';
+import Home from './components/Home'; // Importa o componente Home
+import Shop from './components/Shop'; 
+import ProductDetails from './components/ProductDetails';
 
 function App() {
   return (
     <div className="App">
-      <h1>Olá React!</h1>
-      <p>Meu Primeiro app.</p>
+      <Home /> {/* Renderiza o componente Home */}
+      <Shop /> {/* Renderiza o componente Shop */}
+      <ProductDetails /> {/* Renderiza o componente ProductDetails */}
     </div>
   );
 }
