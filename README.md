@@ -1,5 +1,7 @@
-# visualizar a pagina em construção
+# visualizar a pagina em construção ok 
+
 https://Fransualdo-lopes.github.io/my-project-react/
+
 
 
 # Getting Started with Create React App
