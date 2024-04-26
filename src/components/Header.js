@@ -13,10 +13,11 @@ const Header = () => {
     <header className="header">
       <div className="logo-container">
         <img src={logo} alt="Logo" className="logo" />
-        <a className="text-logo"><strong>Furniro</strong></a>
+        <a className="text-logo"><h2><strong>Furniro</strong></h2></a>
       </div>
       <nav className="menu">
         <ul className="menu-list">
+        
           <li><a href="/home">Home</a></li>
           <li><a href="/shop">Shop</a></li>
           <li><a href="/about">About</a></li>

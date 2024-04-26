@@ -2,14 +2,19 @@
 
 .header {
   display: flex;
-  padding: 20px;
+  padding: 5px;
   justify-content: space-around;
   align-items: center;
 }
 
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+
 .logo {
-  width: 2.125rem;
-  height: 1rem;
+  width: 2.8rem;
+  height: 1.5rem;
 }
 
 .menu {
@@ -22,7 +27,6 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: blueviolet;
 }
 
 .menu-list li {
@@ -45,6 +49,10 @@
 
 a {
   text-decoration: none;
+}
+
+li{
+padding: 0 18px;
 }
 
 .text-logo{

@@ -8,13 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 /* Importação de outros arquivos CSS */
-/*@import url('./header.css');
+/*@import url('./Header.css');
 @import url('./menu.css');
 @import url('./body.css');
 @import url('./footer.css');

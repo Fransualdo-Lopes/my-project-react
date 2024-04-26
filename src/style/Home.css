@@ -10,27 +10,33 @@
   .header-container {
     position: relative;
     width: 100%;
+    position: relative; 
+    display: inline-block;
   }
   
   .header-container img {
     width: 100%;
     height: auto;
+
   }
   
   .message-overlay {
     position: absolute;
-    top: 4rem;
-    right: 1rem;
-    background-color: rgba(255, 218, 185, 0.7); /* Cor pêssego transparente */
+    top: 10rem;
+    right: 20px;
+    bottom: 0px; 
+    right: 20px;
+    background-color:rgba(255, 218, 185, 0.7); 
     padding: 20px;
     width: 50%;
-    z-index: auto;
+    
   }
   
   .main-text {
     color: #333333;
     text-align: center;
     margin-top: 20px;
+    
   }
   
   .categories-container {

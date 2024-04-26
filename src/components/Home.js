@@ -1,7 +1,6 @@
-import Header from './Header';
-import OurProducts from './OurProducts';
-
-import '../style/Home.css';
+//import Header from './Header';
+// import OurProducts from './OurProducts';
+import'../style/Home.css';
 
 import scandinavianBg from '../images/home/background1.svg'; 
 import Dining from '../images/home/dining.svg';
@@ -12,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <div className="home-container">
-        <Header />
+        
         <div className="header-container">
           <img src={scandinavianBg} alt="Imagem de Destaque" />
           <div className="message-overlay">
@@ -35,9 +34,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
-<OurProducts />
+
 export default Home;
